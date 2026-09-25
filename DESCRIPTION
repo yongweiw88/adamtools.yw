@@ -1,0 +1,25 @@
+Package: adamtools.yw
+Type: Package
+Title: Helper Utilities for ADaM Workflow Tasks
+Version: 0.1.0
+Authors@R: c(person("Your", "Name", email = "your.name@example.com", role = c("aut", "cre")))
+Description: A small package for ADaM-focused helper functions and utilities.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    admiral,
+    arrow,
+    diffdf,
+    dplyr,
+    metacore,
+    metatools,
+    hms,
+    rlang,
+    stringr,
+    tidyr,
+    xportr
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.0.0
